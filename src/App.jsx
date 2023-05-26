@@ -30,8 +30,8 @@ const App = () => {
             <br />
             <select name="gender" value={user.gender} onChange={handleInputChange}>
                 <option value="">Select gender</option>
-                <option value="man">Man</option>
-                <option value="girl">girl</option>
+                <option value="Man">Man</option>
+                <option value="Girl">Girl</option>
             </select>
             <br />
             <h3>User Info:</h3>
